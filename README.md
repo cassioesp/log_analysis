@@ -22,6 +22,11 @@ Given a populate tables some questions will be answer like:
 `sudo vagrant up`
 `sudo vagrant ssh`
 
+5. Copy and paste the newsdata.sql file into your FSND-Virtual-Machine/vagrant folder.
+
+6. Run the following command to execute the SQL commands on the downloaded file.
+`psql -d news -f newsdata.sql`
+
 5. Run log_analysis.py with Python:
 `python log_analysis.py`
 
